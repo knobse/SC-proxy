@@ -48,8 +48,8 @@ r.setsockopt(socket.IPPROTO_TCP, socket.TCP_NODELAY, 1)
 #r.setsockopt(socket.SOL_TCP,socket.SO_KEEPALIVE,True)
 r.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 # connect to 
-#clash royale
-host = 'royaleserver'
+#SC server
+host = 'SC server'
 port = 9339
 r.connect((host, port))
 r.setblocking(1)
