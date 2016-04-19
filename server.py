@@ -273,7 +273,6 @@ while True:
    c, addr = s.accept() # Establish connection with client.
    #print 'Got connection from', addr
    print(bcolors.crproxycolor + "[INFO] " + bcolors.ENDC +"Remote connection from client ("+addr[0]+")")
-   #print(bcolors.crproxycolor + "[INFO] " + bcolors.ENDC +"Remote connection from client (192.168.1.1)")
    
    while 1:
       clientside(c,r)
